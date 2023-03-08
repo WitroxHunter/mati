@@ -1,0 +1,29 @@
+@font-face {
+    font-family: LemonMilk;
+    src: url(Fonts/LemonMilkMedium-mLZYV.otf);
+}
+
+@font-face {
+    font-family: LemonMilkItalic;
+    src: url(Fonts/LemonMilk.otf);
+}
+
+body {
+    font-family: LemonMilk;
+}
+
+.mati {
+    display: grid;
+    place-items: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+#anchor {
+    height: 500px;
+}
+
+#eyes, #eyes img {
+    position: absolute;
+    height: 120px;
+}
